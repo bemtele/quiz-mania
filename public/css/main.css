@@ -1,0 +1,14 @@
+
+#question{
+	background-color: lightblue;
+	padding:10px;
+	margin: 10px;
+	border-width: 3px;
+	border-color: blue;
+	border-radius: 5px;
+	border-style: solid;
+}
+
+.d-flex{
+	display:flex;
+}
