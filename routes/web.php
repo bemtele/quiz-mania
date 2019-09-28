@@ -12,10 +12,15 @@
 */
 
 /*
-Pages No or Little logic
+Pages Controller
 */
 
 Route::get('/', 'PagesController@index');
+Route::get('/mathematics','PagesController@math');
+Route::get('/science','PagesController@science');
+Route::get('/english','PagesController@english');
+Route::get('/history','PagesController@history');
+Route::get('/general','PagesController@general');
 
 
 
